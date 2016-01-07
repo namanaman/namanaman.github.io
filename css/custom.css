@@ -1,0 +1,48 @@
+body {
+    background-color: #EEE;
+    color: #fff;
+}
+
+.bg-1 {
+    background-color: #448AFF;
+}
+
+.list-group {
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: #673AB7;
+    color: #fff;
+}
+
+a.list-group-item {
+    color: #fff;
+}
+
+a.list-group-item:hover,a.list-group-item:focus {
+    color: #fff;
+    background-color: #9575CD;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #448AFF;
+    border-color: #ccc;
+}
+
+.pic {
+    display: inline-block;
+}
+
+.pic2 {
+    display: inline-block;
+    border: 2.5px solid #fff;
+}
+
+.foot {
+    float: bottom;
+    color: #448AFF;
+    text-align: center;
+    margin-bottom: 5px;
+}
