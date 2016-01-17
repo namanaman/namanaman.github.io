@@ -4,4 +4,4 @@ My personal site designed & developed using HTML, CSS, and Bootstrap. Features a
 
 Feel free to use this as a template for your own sites.
 
-![Alt text](/images/web_shot?raw=true "View 1")
+![Not found](/images/web_shot.png?raw=true "View 1")
