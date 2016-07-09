@@ -1,5 +1,5 @@
 body {
-    background-color: #EEE;
+    background-color: white;
     color: #fff;
 }
 
@@ -12,22 +12,22 @@ body {
 }
 
 .list-group-item {
-    background-color: #9575CD;
+    background-color: #673AB7;
     color: #fff;
 }
 
 a.list-group-item {
     color: #fff;
-    background-color: #546E7A;
+    background-color: #673AB7;
 }
 
 a.list-group-item:hover,a.list-group-item:focus {
     color: #fff;
-    background-color: #673AB7;
+    background-color: #311B92;
 }
 
 .btn-default:hover {
-    background-color: #673AB7;
+    background-color: #9575CD;
     color: white;
 }
 
@@ -58,5 +58,5 @@ a.list-group-item:hover,a.list-group-item:focus {
 }
 
 .bigcat:hover {
-    background-color: #673AB7;
+    background-color: #311B92;
 }
