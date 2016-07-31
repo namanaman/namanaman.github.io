@@ -18,12 +18,12 @@ body {
 
 a.list-group-item {
     color: #fff;
-    background-color: #673AB7;
+    background-color: #311B92;
 }
 
 a.list-group-item:hover,a.list-group-item:focus {
     color: #fff;
-    background-color: #311B92;
+    background-color: #673AB7;
 }
 
 .btn-default:hover {
