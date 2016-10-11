@@ -24,7 +24,7 @@ a.list-group-item {
 /* Maintains same color for links */
 a.list-group-item:hover {
     color: #fff;
-    background-color: #673AB7;
+    background-color: #9E9E9E;
 }
 
 /* Big categories like Who I Am etc. */
@@ -48,7 +48,7 @@ a.list-group-item:hover {
 }
 
 .pic2:hover {
-    border: 3px solid #fff;
+    border: 3px solid #9E9E9E;
 }
 
 .foot {
