@@ -1,42 +1,43 @@
 body {
     background-color: white;
     color: #fff;
+    margin: auto;
+    text-align: center;
 }
 
+/* Header with my name */
 .bg-1 {
     background-color: #673AB7;
 }
 
-.list-group {
-    color: #fff;
-}
-
+/* Title color (e.g. Who I Am) */
 .list-group-item {
-    background-color: #673AB7;
-    color: #fff;
+    color: #673AB7;
 }
 
+/* Links for What I'm Working On */
 a.list-group-item {
     color: #fff;
-    background-color: #311B92;
+    background-color: #673AB7;
 }
 
-a.list-group-item:hover,a.list-group-item:focus {
+/* Maintains same color for links */
+a.list-group-item:hover {
     color: #fff;
     background-color: #673AB7;
 }
 
-.btn-default:hover {
-    background-color: #9575CD;
-    color: white;
+/* Big categories like Who I Am etc. */
+.bigcat {
+  border-color: #fff;
 }
 
-.btn-default {
+.bigcat:hover {
+    background-color: #673AB7;
     color: #fff;
-    background-color: #546E7A;
-    border-color: #ccc;
 }
 
+/* Icons next to each title instead of below */
 .pic {
     display: inline-block;
 }
@@ -55,8 +56,4 @@ a.list-group-item:hover,a.list-group-item:focus {
     color: #673AB7;
     text-align: center;
     margin-bottom: 5px;
-}
-
-.bigcat:hover {
-    background-color: #311B92;
 }
