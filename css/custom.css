@@ -1,14 +1,41 @@
 body {
-    background-color: white;
-    color: #fff;
+    background-color: #673AB7;
+    color: white;
     margin: auto;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header with my name */
 .bg-1 {
     background-color: #673AB7;
-    margin-bottom: 15px;
+    height:33vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    line-height: 100%;
+    display: table
+}
+
+.name {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 75px !important;
+}
+
+.wherebutton {
+  color: #673AB7;
+}
+
+/* Big categories like Who I Am etc. */
+.bigcat {
+  border-color: #fff;
 }
 
 /* Title color (e.g. Who I Am) */
@@ -20,22 +47,13 @@ body {
 a.list-group-item {
     color: #673AB7;
     background-color: #fff;
+    border-color: #fff;
 }
 
-/* Maintains same color for links */
+/* What I'm Working On links highlight on hover */
 a.list-group-item:hover {
     color: #fff;
     background-color: #673AB7;
-}
-
-/* Big categories like Who I Am etc. */
-.bigcat {
-  border-color: #fff;
-}
-
-.bigcat:hover {
-    background-color: #673AB7;
-    color: #fff;
 }
 
 /* Icons next to each title instead of below */
@@ -43,27 +61,12 @@ a.list-group-item:hover {
     display: inline-block;
 }
 
-.label {
-  font-size: 14px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 3px;
-}
-
-.pic2 {
+.myface {
     display: inline-block;
-    border: 2.5px solid #fff;
-}
-
-.pic2:hover {
-    border: 3px solid #9E9E9E;
 }
 
 .foot {
     float: bottom;
-    color: #fff;
-    background-color: #673AB7;
     text-align: center;
-    padding-bottom, padding-top: 5px;
-
+    padding-bottom, padding-top: 10px;
 }
