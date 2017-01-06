@@ -36,11 +36,7 @@ h1 {
 /* Big categories like Who I Am etc. */
 .bigcat {
   border-color: #fff;
-}
-
-/* Title color (e.g. Who I Am) */
-.list-group-item {
-    color: #673AB7;
+  color: #673AB7;
 }
 
 /* Links for What I'm Working On */
