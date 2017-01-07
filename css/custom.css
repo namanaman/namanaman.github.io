@@ -10,7 +10,6 @@ body {
 .bg-1 {
     height:33vh;
     width: 100%;
-    -webkit-background-size: cover;
     background-size: cover;
     position: relative;
     line-height: 100%;
