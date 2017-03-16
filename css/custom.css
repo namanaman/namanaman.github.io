@@ -8,23 +8,12 @@ body {
 
 /* Header with my name */
 .bg-1 {
-    height:33vh;
+    height:23vh;
     width: 100%;
     background-size: cover;
     position: relative;
     line-height: 100%;
-    display: table
-}
-
-/* Headers for other pages */
-.bg-2 {
-    height:20vh;
-    width: 100%;
-    -webkit-background-size: cover;
-    background-size: cover;
-    position: relative;
-    line-height: 100%;
-    display: table
+    display: table;
 }
 
 /* Vertically centers name in header */
@@ -38,47 +27,19 @@ h1 {
   font-size: 75px !important;
 }
 
-h2 {
-  font-size: 50px !important;
-}
-
-/* Links for Where to Find Me */
-.wherebutton {
-  color: #673AB7;
-}
-
-/* Big categories like Who I Am etc. */
-.bigcat {
-  color: #673AB7;
-}
-
-/* Links for What I'm Working On */
-a.list-group-item {
-    color: #673AB7;
-    background-color: #fff;
-    border-color: #fff;
-}
-
-/* What I'm Working On links highlight on hover */
-a.list-group-item:hover {
-    color: #fff;
-    background-color: #673AB7;
-}
-
-/* Icons next to each title instead of below */
+/* Icons/face next to each title instead of below */
 .pic {
     display: inline-block;
     padding-left: 5px;
 }
 
-.myface {
-    display: inline-block;
+.mypic {
+  margin-top: 15px;
+  border-radius: 8px;
 }
 
-.footer {
-    float: bottom;
-    text-align: center;
-    margin-bottom: 10px;
+.richcontent {
+  margin-top: 25px;
 }
 
 .links {
@@ -90,7 +51,56 @@ a.list-group-item:hover {
   text-decoration: none;
 }
 
-.map {
-  margin-top: 10px;
-  margin-bottom: 10px;
+div .content {
+  margin-top: 15px;
+  font-size: 17px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.nav-tabs {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    border: none;
+}
+
+.nav-tabs > li > a {
+  color: white;
+  font-size: 18px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  color: #673AB7;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #673AB7;
+}
+
+.allprojects {
+  font-size: 15px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #BDBDBD;
+}
+
+a.list-group-item {
+  background-color: #512DA8;
+  color: white;
+  border: 2px solid #673AB7;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+  color: #512DA8;
+  background-color: white;
 }

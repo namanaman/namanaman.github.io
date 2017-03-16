@@ -9,105 +9,133 @@
       <link rel="stylesheet" type="text/css" href="css/custom.css" >
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
    </head>
+
    <body>
       <div class="container-fluid bg-1">
-         <div class="name"><h1><strong>naman</strong> agrawal &nbsp;<img src="images/naman_pic.jpg" width="100" height="100" class="img-circle myface" alt="Responsive image"></h1></div>
+         <div class="name"><h1><strong>naman</strong> agrawal</h1></div>
       </div>
+
       <div class="container-fluid">
-         <div class="row">
-            <div class="col-md-6">
-               <ul class="list-group">
-                 <li class="list-group-item bigcat">
-                    <h3><strong>who</strong> i am &nbsp;<img src="images/smile.png" class="img-responsive pic" alt="Responsive image"></h3>
-                    <div>
-                     <p><strong>Columbia University student</strong> of computer science and psychology</p>
-                     <p><strong>Software engineer</strong> interested in web development and A.I.</p>
-                     <p><strong>Aspiring product developer</strong> looking to design new apps</p>
-                   </div>
-                 </li>
-               </ul>
-               <ul class="list-group">
-                  <li class="list-group-item bigcat">
-                     <h3><strong>what</strong> i'm working on &nbsp;<img src="images/laptop.png" class="img-responsive pic" alt="Responsive image"></h3>
-                     <div class="list-group">
-                       <a href="https://www.vestorly.com/" target="_blank" class="list-group-item">
-                          <h5>
-                            <b>Vestorly </b>
-                            <img src="images/briefcase.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                            <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                          </h5>
-                          <h6>Software intern at A.I. driven content marketing startup • Javascript, Ember, Rails</h6>
-                       </a>
-                        <a href="http://www.straightfire.meteorapp.com/" target="_blank" class="list-group-item">
-                           <h5>
-                             <b>Straightfire </b>
-                             <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                           </h5>
-                           <h6>Web app to find & rank the best new hip-hop music • Javascript, Meteor, Spotify API </h6>
-                        </a>
-                        <a href="http://devpost.com/software/playup-9h2sek" target="_blank" class="list-group-item">
-                           <h5>
-                             <b>PlayUp </b>
-                             <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                             <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
-                           </h5>
-                           <h6>Hackathon app to organize local pickup sports games • Javascript, Rails, iOS </h6>
-                        </a>
-                        <a href="http://www.nibbly.com/" target="_blank" class="list-group-item">
-                           <h5>
-                             <b>Nibbly </b>
-                             <img src="images/briefcase.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                             <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                             <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
-                           </h5>
-                           <h6>Software intern at restaurant discovery startup • Python, Javascript, iOS </h6>
-                        </a>
-                        <a href="https://github.com/namanaman/billsplit-ios" target="_blank" class="list-group-item">
-                           <h5>
-                             <b>BillSplit </b>
-                             <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
-                           </h5>
-                           <h6> iOS app to calculate and split your restaurant bill quickly and easily • iOS  </h6>
-                        </a>
-                     </div>
-                  </li>
-               </ul>
+
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#about" aria-controls="home" role="tab" data-toggle="tab">about</a></li>
+            <li role="presentation"><a href="#projects" aria-controls="profile" role="tab" data-toggle="tab">projects</a></li>
+            <li role="presentation"><a href="#music" aria-controls="messages" role="tab" data-toggle="tab">music</a></li>
+            <li role="presentation"><a href="#travel" aria-controls="settings" role="tab" data-toggle="tab">travel</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="about">
+              <img src="images/id-card.png" class="img-responsive pic" alt="Responsive image">
+              <div class="content">
+                <p>Hi, I'm a junior studying computer science and psychology at Columbia University. I've interned as a software engineer for two years and am interested in front-end web development, data visualization, and machine learning.
+                  To learn more about me, check out this website,
+                  my code on <a href="https://github.com/namanaman" target="_blank" class="links"><strong>Github</strong></a>,
+                  my profile on <a href="https://www.linkedin.com/in/naman-agrawal-55bb05ab" target="_blank" class="links"><strong>Linkedin</strong></a>,
+                  or email me at <a href="mailto:na2603@columbia.edu" class="links"><strong>na2603@columbia.edu</strong></a> to get in touch!
+                </p>
+                <img src="images/picofme.jpg" class="img-rounded pic mypic" width="65%" height="65%" alt="Responsive image">
+              </div>
             </div>
-            <div class="col-md-6">
-              <ul class="list-group">
-                <li class="list-group-item bigcat">
-                   <h3><strong>where</strong> to find me &nbsp;<img src="images/search.png" class="img-responsive pic" alt="Responsive image"> </h3>
-                    <a href="https://github.com/namanaman" target="_blank" class="btn wherebutton">
-                       <p align="center"><img src="images/github10.png" class="img-responsive" alt="Responsive image"></p>
-                       <p><strong>github</strong></p>
+
+            <div role="tabpanel" class="tab-pane fade" id="projects">
+              <img src="images/writing.png" class="img-responsive pic" alt="Responsive image">
+
+              <div class="content">
+                <p>A quick overview of my favorite coding projects I've worked on - at home, hackathons, and the office.</p>
+
+                <ul class="list-group richcontent allprojects">
+
+                  <a href="https://github.com/namanaman/namanaman.github.io" target="_blank" class="list-group-item">
+                      <p class="allprojects">
+                        <strong>Personal Website </strong>
+                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
+                      </p>
+                      <p>This very site, which I made from scratch and love improving • HTML, CSS, Bootstrap • Spring 2017</p>
                     </a>
-                    <a href="https://www.linkedin.com/in/naman-agrawal-55bb05ab" target="_blank" class="btn wherebutton">
-                       <p align="center"><img src="images/linkedin12.png" class="img-responsive" alt="Responsive image"></p>
-                       <p><strong>linkedin</strong></p>
+
+                  <a href="https://github.com/namanaman/alimentos-web" target="_blank" class="list-group-item">
+                      <p class="allprojects">
+                        <strong>Alimentos </strong>
+                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
+                      </p>
+                      <p>Food-finding web app for a Databases class project • Python, Flask, SQL • Fall 2016</p>
                     </a>
-                    <a href="mailto:na2603@columbia.edu" target="_blank" class="btn wherebutton">
-                       <p align="center"><img src="images/email5.png" class="img-responsive" alt="Responsive image"></p>
-                       <p><strong>email</strong></p>
+
+                  <a href="https://www.vestorly.com/" target="_blank" class="list-group-item">
+                      <p class="allprojects">
+                        <strong>Vestorly </strong>
+                        <img src="images/briefcase.png" class="img-responsive pic" alt="Responsive image">&nbsp;
+                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
+                      </p>
+                      <p>Software intern at A.I. driven content marketing startup • Javascript, Ember, Rails • Summer 2016</p>
                     </a>
-                    <a href="travel.html" class="btn wherebutton">
-                       <p align="center"><img src="images/airplane.png" class="img-responsive" alt="Responsive image"></p>
-                       <p><strong>traveling</strong></p>
-                    </a>
-                </li>
+
+                  <a href="http://devpost.com/software/playup-9h2sek" target="_blank" class="list-group-item">
+                    <p class="allprojects">
+                      <strong>PlayUp </strong>
+                      <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">&nbsp;
+                      <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
+                    </p>
+                    <p>Hackathon app to organize local pickup sports games • Javascript, Rails • Winter 2016 </p>
+                  </a>
+
+                  <a href="http://www.straightfire.meteorapp.com/" target="_blank" class="list-group-item">
+                    <p class="allprojects">
+                      <strong>Straightfire </strong>
+                      <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
+                    </p>
+                    <p>Web app to find & rank the best new hip-hop music • Javascript, Meteor, Spotify API • Winter 2016</p>
+                  </a>
+
+                  <a href="http://www.nibbly.com/" target="_blank" class="list-group-item">
+                    <p class="allprojects">
+                      <strong>Nibbly </strong>
+                      <img src="images/briefcase.png" class="img-responsive pic" alt="Responsive image">&nbsp;
+                      <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">&nbsp;
+                      <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
+                    </p>
+                    <p>Software intern at restaurant discovery startup • Python, Javascript • Summer 2015</p>
+                  </a>
+
+                <a href="https://github.com/namanaman/billsplit-ios" target="_blank" class="list-group-item">
+                  <p class="allprojects">
+                   <strong>BillSplit </strong>
+                   <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
+                  </p>
+                  <p> My first iOS app to calculate and split your restaurant bill quickly and easily • Swift • Winter 2015 </p>
+                </a>
+
               </ul>
-              <ul class="list-group">
-                 <li class="list-group-item bigcat">
-                    <h3><strong>what</strong> i'm listening to &nbsp;<img src="images/headphones.png" class="img-responsive pic" alt="Responsive image"></h3>
-                    <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adrchubbie%3Aplaylist%3A5znOc6eGb5YTfi79Dv7fBf&theme=white" width="95%" height="450" frameborder="0" allowtransparency="true"></iframe>
-                 </li>
-              </ul>
+              </div>
+
             </div>
-         </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="music">
+              <img src="images/headphones.png" class="img-responsive pic" alt="Responsive image">
+
+              <div class="content">
+                <p>A playlist of my favorite new songs, curated every week and mainly consisting of (but not limited to) hip-hop and R&B.</p>
+                <div class="richcontent">
+                  <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adrchubbie%3Aplaylist%3A5znOc6eGb5YTfi79Dv7fBf" width="75%" height="450" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="travel">
+              <img src="images/aeroplane.png" class="img-responsive pic" alt="Responsive image">
+              <div class="content">
+                <p>A map tracking the <strong>24</strong> countries and <strong>94</strong> cities I've explored so far, with hopefully many more to come.</p>
+                <div class="richcontent" id="map">
+                  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_5ZRf4uBE91orQpAB35mxK_lT1E" width="90%" height="450" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+
       </div>
-      <div class="container-fluid footer">
-         <h5><a href="https://github.com/namanaman/namanaman.github.io" target="_blank" class="links"> This site's code </a> | <a href="travel.html" class="links">My travel page</a> | Created by Naman Agrawal, 2017</h5>
-      </div>
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
    </body>
 </html>
