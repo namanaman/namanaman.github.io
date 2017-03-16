@@ -1,7 +1,7 @@
 # [namanaman.github.io](http://namanaman.github.io)
 
 ## About this page
-My personal site designed & developed using HTML, CSS, and Bootstrap. Features a simple one-page review of my past work, my online presence, and my taste in music. The design was intended to be clean and simple in nature, where the reader can quickly and easily read it and learn about my work. I hope to add more to this page in the future!
+My personal site designed & developed using HTML, CSS, and Bootstrap. Features a simple one-page review of my past work, my online presence, my taste in music, and my travel history. The design was intended to be clean and simple in nature, where the reader can quickly and easily read it and learn about myself and my work. I hope to add more to this page in the future!
 
 ## Design
 Feel free to use this as a template for your own sites, and see the evolution of the design below.
