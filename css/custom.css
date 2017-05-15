@@ -43,11 +43,11 @@ h1 {
 }
 
 .links {
-  color: #BDBDBD;
+  color: #FFD180;
 }
 
 .links:hover, .links:focus {
-  color: #fff;
+  color: #FF9100;
   text-decoration: none;
 }
 
@@ -91,7 +91,7 @@ div .content {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  color: #BDBDBD;
+  color: #FFD180;
 }
 
 a.list-group-item {
