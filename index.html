@@ -9,149 +9,134 @@
       <link rel="stylesheet" type="text/css" href="css/custom.css" >
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
    </head>
-
    <body>
-      <div class="container-fluid bg-1">
-         <div class="name"><h1><strong>naman</strong> agrawal</h1></div>
+      <div class="container-fluid header">
+         <span class="name"><strong>naman</strong> agrawal</span>
       </div>
-
       <div class="container-fluid">
-
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#about" aria-controls="home" role="tab" data-toggle="tab">about</a></li>
-            <li role="presentation"><a href="#projects" aria-controls="profile" role="tab" data-toggle="tab">projects</a></li>
-            <li role="presentation"><a href="#music" aria-controls="messages" role="tab" data-toggle="tab">music</a></li>
-            <li role="presentation"><a href="#travel" aria-controls="settings" role="tab" data-toggle="tab">travel</a></li>
+            <li role="presentation" class="active"><a href="#about" role="tab" data-toggle="tab">about</a></li>
+            <li role="presentation"><a href="#projects" role="tab" data-toggle="tab">projects</a></li>
+            <li role="presentation"><a href="#music" role="tab" data-toggle="tab">music</a></li>
+            <li role="presentation"><a href="#travel" role="tab" data-toggle="tab">travel</a></li>
           </ul>
-
           <div class="tab-content">
             <div role="tabpanel" class="tab-pane fade in active" id="about">
-              <img src="images/id-card.png" class="img-responsive pic" alt="Responsive image">
-              <div class="content">
-                <p>Hi, I'm a junior studying computer science and psychology at
-                  <a href="http://www.columbia.edu/" target="_blank" class="links">Columbia University</a>. This summer I will be interning at
-                  <a href="https://code.facebook.com/" target="_blank" class="links">Facebook</a> as a front-end software engineer, and I am interested in web development, data visualization, and machine learning.
+              <img src="images/id-card.png" class="img-responsive tabIcon" alt="Responsive image">
+              <div class="description">
+                <p>Hi, I'm Naman. I'm a senior studying computer science and psychology at
+                  <a href="http://www.columbia.edu/" target="_blank" class="link">Columbia University</a>.
+                  I most recently worked at
+                  <a href="https://www.facebook.com" target="_blank" class="link">Facebook</a>,
+                  and I enjoy developing web products, building user interfaces, and analyzing & visualizing data.
                   To learn more about me, check out this website,
-                  my code on <a href="https://github.com/namanaman" target="_blank" class="links">Github</a>,
-                  my profile on <a href="https://www.linkedin.com/in/naman-agrawal-55bb05ab" target="_blank" class="links">Linkedin</a>,
-                  or email me at <a href="mailto:na2603@columbia.edu" class="links">na2603@columbia.edu</a> to get in touch!
+                  my code on <a href="https://github.com/namanaman" target="_blank" class="link">Github</a>,
+                  my profile on <a href="https://www.linkedin.com/in/naman-agrawal-55bb05ab" target="_blank" class="link">Linkedin</a>,
+                  or email me at <a href="mailto:na2603@columbia.edu" class="link">na2603@columbia.edu</a> to get in touch!
                 </p>
-                <img src="images/picofme.jpg" class="img-rounded pic mypic" width="65%" height="65%" alt="Responsive image">
               </div>
+              <img src="images/picofme.jpg" class="photo" width="65%" height="65%" alt="Responsive image">
             </div>
-
             <div role="tabpanel" class="tab-pane fade" id="projects">
-              <img src="images/writing.png" class="img-responsive pic" alt="Responsive image">
-
-              <div class="content">
+              <img src="images/writing.png" class="img-responsive tabIcon" alt="Responsive image">
+              <div class="description">
                 <p>A quick overview of my favorite coding projects I've worked on - at home, hackathons, and the office.</p>
-
-                <ul class="list-group richcontent allprojects">
-
-                  <a href="https://github.com/namanaman/cmsl-music" target="_blank" class="list-group-item">
-                      <p class="allprojects">
-                        Lyrics & Popularity
-                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                      </p>
-                      <p>Class project using machine learning to predict the popularity of a song from lexical features extracted from its lyrics • Python, R • Spring 2017</p>
-                    </a>
-
-                  <a href="http://www1.cs.columbia.edu/~sedwards/classes/2017/4115-spring/reports/Crayon.pdf" target="_blank" class="list-group-item">
-                      <p class="allprojects">
-                      Crayon
-                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                      </p>
-                      <p>Class project designing a raster graphics programming language and building a compiler for it • OCaml, C • Spring 2017</p>
-                    </a>
-
-                  <a href="https://github.com/namanaman/namanaman.github.io" target="_blank" class="list-group-item">
-                      <p class="allprojects">
-                        Personal Website
-                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                      </p>
-                      <p>This very site, which I made from scratch and love improving • HTML, CSS, Bootstrap • Spring 2017</p>
-                    </a>
-
-                  <a href="https://github.com/namanaman/alimentos-web" target="_blank" class="list-group-item">
-                      <p class="allprojects">
-                      Alimentos
-                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                      </p>
-                      <p>Food-finding web app for a Databases class project • Python, Flask, SQL • Fall 2016</p>
-                    </a>
-
-                  <a href="https://www.vestorly.com/" target="_blank" class="list-group-item">
-                      <p class="allprojects">
-                      Vestorly
-                        <img src="images/briefcase.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                        <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                      </p>
-                      <p>Software intern at A.I. driven content marketing startup • Javascript, Ember, Rails • Summer 2016</p>
-                    </a>
-
-                  <a href="http://devpost.com/software/playup-9h2sek" target="_blank" class="list-group-item">
-                    <p class="allprojects">
-                      PlayUp
-                      <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                      <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
-                    </p>
-                    <p>Hackathon app to organize local pickup sports games • Javascript, Rails • Winter 2016 </p>
-                  </a>
-
-                  <a href="http://www.straightfire.meteorapp.com/" target="_blank" class="list-group-item">
-                    <p class="allprojects">
-                      Straightfire
-                      <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">
-                    </p>
-                    <p>Web app to find & rank the best new hip-hop music • Javascript, Meteor, Spotify API • Winter 2016</p>
-                  </a>
-
-                  <a href="http://www.nibbly.com/" target="_blank" class="list-group-item">
-                    <p class="allprojects">
-                      Nibbly
-                      <img src="images/briefcase.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                      <img src="images/web2.png" class="img-responsive pic" alt="Responsive image">&nbsp;
-                      <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
-                    </p>
-                    <p>Software intern at restaurant discovery startup • Python, Javascript • Summer 2015</p>
-                  </a>
-
+              </div>
+              <ul class="list-group allProjects">
+                <a href="https://code.facebook.com/" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Facebook
+                    <img src="images/briefcase.png" class="img-responsive itemIcon" alt="Responsive image">
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Front-end intern building the new albums product on the mobile website • PHP, Javascript, React • Summer 2017</p>
+                </a>
+                <a href="https://github.com/namanaman/cmsl-music" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Lyrics & Popularity
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Class project using machine learning to predict the popularity of a song from its lyrics • Python, R • Spring 2017</p>
+                </a>
+                <a href="http://www1.cs.columbia.edu/~sedwards/classes/2017/4115-spring/reports/Crayon.pdf" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Crayon
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Class project designing a raster graphics programming language and building a compiler for it • OCaml, C • Spring 2017</p>
+                </a>
+                <a href="https://github.com/namanaman/namanaman.github.io" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Personal Website
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>This very site, which I made from scratch and love improving • HTML, CSS, Bootstrap • Spring 2017</p>
+                </a>
+                <a href="https://github.com/namanaman/alimentos-web" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Alimentos
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Food-finding web app for a Databases class project • Python, Flask, SQL • Fall 2016</p>
+                </a>
+                <a href="https://www.vestorly.com/" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Vestorly
+                    <img src="images/briefcase.png" class="img-responsive itemIcon" alt="Responsive image">
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Software intern at A.I. driven content marketing startup • Javascript, Ember, Rails • Summer 2016</p>
+                </a>
+                <a href="http://devpost.com/software/playup-9h2sek" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    PlayUp
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                    <img src="images/logo79.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Hackathon app to organize local pickup sports games • Javascript, Rails • Winter 2016 </p>
+                </a>
+                <a href="http://www.straightfire.meteorapp.com/" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Straightfire
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Web app to find & rank the best new hip-hop music • Javascript, Meteor, Spotify API • Winter 2016</p>
+                </a>
+                <a href="http://www.nibbly.com/" target="_blank" class="list-group-item">
+                  <p class="allProjects">
+                    Nibbly
+                    <img src="images/briefcase.png" class="img-responsive itemIcon" alt="Responsive image">
+                    <img src="images/web2.png" class="img-responsive itemIcon" alt="Responsive image">
+                    <img src="images/logo79.png" class="img-responsive itemIcon" alt="Responsive image">
+                  </p>
+                  <p>Software intern at restaurant discovery startup • Python, Javascript • Summer 2015</p>
+                </a>
                 <a href="https://github.com/namanaman/billsplit-ios" target="_blank" class="list-group-item">
-                  <p class="allprojects">
+                  <p class="allProjects">
                    BillSplit
-                   <img src="images/logo79.png" class="img-responsive pic" alt="Responsive image">
+                   <img src="images/logo79.png" class="img-responsive itemIcon" alt="Responsive image">
                   </p>
                   <p> My first iOS app to calculate and split your restaurant bill quickly and easily • Swift • Winter 2015 </p>
                 </a>
-
               </ul>
-              </div>
-
             </div>
-
-            <div role="tabpanel" class="tab-pane fade" id="music">
-              <img src="images/headphones.png" class="img-responsive pic" alt="Responsive image">
-
-              <div class="content">
-                <p>A playlist of my favorite new songs, curated every week and mainly consisting of (but not limited to) hip-hop and R&B.</p>
-                <div class="richcontent">
-                  <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adrchubbie%3Aplaylist%3A5znOc6eGb5YTfi79Dv7fBf" width="75%" height="450" frameborder="0" allowtransparency="true"></iframe>
-                </div>
-              </div>
+          <div role="tabpanel" class="tab-pane fade" id="music">
+            <img src="images/headphones.png" class="img-responsive tabIcon" alt="Responsive image">
+            <div class="description">
+              <p>A playlist of my favorite new songs, curated every week and mainly consisting of (but not limited to) hip-hop and R&B.</p>
             </div>
-
-            <div role="tabpanel" class="tab-pane fade" id="travel">
-              <img src="images/aeroplane.png" class="img-responsive pic" alt="Responsive image">
-              <div class="content">
-                <p>A map tracking the <span class="links"><strong>24</strong></span> countries and <span class="links"><strong>94</strong></span> cities I've explored so far, with hopefully many more to come.</p>
-                <div class="richcontent" id="map">
-                  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_5ZRf4uBE91orQpAB35mxK_lT1E" width="90%" height="450" frameborder="0" allowtransparency="true"></iframe>
-                </div>
-              </div>
+            <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adrchubbie%3Aplaylist%3A5znOc6eGb5YTfi79Dv7fBf" width="75%" height="450" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="travel">
+            <img src="images/aeroplane.png" class="img-responsive tabIcon" alt="Responsive image">
+            <div class="description">
+              <p>A map tracking the <strong>24</strong> countries and <strong>100</strong> cities I've explored so far, with hopefully many more to come.</p>
             </div>
-
+            <div id="map">
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_5ZRf4uBE91orQpAB35mxK_lT1E" width="90%" height="450" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+          </div>
       </div>
-
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/custom.js"></script>
