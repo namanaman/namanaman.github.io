@@ -1,6 +1,6 @@
 body {
-  background-color: #673AB7;
-  color: #FFF;
+  background-color: #FFF;
+  color: #000;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
@@ -31,12 +31,12 @@ body {
 
 .link {
   font-weight: bold;
-  color: #D1C4E9;
+  color: #000;
 }
 
 .link:hover, .link:focus {
-  color: #FF9100;
   text-decoration: none;
+  color: #1976D2;
 }
 
 .description {
@@ -54,19 +54,18 @@ body {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  color: #D1C4E9;
+  color: #000;
 }
 
 a.list-group-item {
-  background-color: #512DA8;
-  color: white;
-  border: 3px solid #673AB7;
+  background-color: #E3F2FD;
+  color: #000;
+  border: 1px solid #000;
 }
 
 a.list-group-item:hover, a.list-group-item:focus {
-  color: #fff;
-  background-color: #512DA8;
-  border: 3px solid #fff;
+  color: #000;
+  background-color: #fff;
 }
 
 .nav-tabs {
@@ -74,6 +73,7 @@ a.list-group-item:hover, a.list-group-item:focus {
   width: 90%;
   margin: auto;
   margin-bottom: 15px;
+  border-bottom: 1px solid #000;
 }
 
 .nav-tabs > li {
@@ -85,12 +85,17 @@ a.list-group-item:hover, a.list-group-item:focus {
 .nav-tabs > li > a {
   color: white;
   font-size: 18px;
+  color: #000;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  color: #673AB7;
+  border-color: #000;
+  border-bottom-color: transparent;
+  color: #000;
+  font-weight: bold;
 }
 
 .nav-tabs > li > a:hover {
-  background-color: #673AB7;
+  background-color: #fff;
+  border: 1px solid #000;
 }
