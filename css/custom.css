@@ -1,76 +1,39 @@
 body {
   background-color: #FFF;
   color: #000;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier New';
 }
 
 .header {
-  height:23vh;
+  height:15vh;
   display: table;
+  text-align: center;
 }
 
 .header .name {
   display: table-cell;
   vertical-align: middle;
-  font-size: 75px;
-}
-
-.tabIcon {
-  display: inline-block;
-}
-
-.itemIcon {
-  display: inline-block;
-  padding-left: 5px;
+  font-size: 50px;
 }
 
 .photo {
-  border-radius: 8px;
+  border-radius: 50%;
+  margin-top: 16px;
 }
 
 .link {
   font-weight: bold;
-  color: #000;
-}
-
-.link:hover, .link:focus {
-  text-decoration: none;
-  color: #1976D2;
 }
 
 .description {
   font-size: 17px;
   margin: 15px auto 25px auto;
-  width: 85%;
-}
-
-.richContent {
-  margin-top: 20px;
-}
-
-.allProjects {
-  font-size: 15px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  color: #000;
-}
-
-a.list-group-item {
-  background-color: #E3F2FD;
-  color: #000;
-  border: 1px solid #000;
-}
-
-a.list-group-item:hover, a.list-group-item:focus {
-  color: #000;
-  background-color: #fff;
+  width: 95%;
+  text-align: center;
 }
 
 .nav-tabs {
   text-align: center;
-  width: 90%;
   margin: auto;
   margin-bottom: 15px;
   border-bottom: 1px solid #000;
@@ -98,4 +61,19 @@ a.list-group-item:hover, a.list-group-item:focus {
 .nav-tabs > li > a:hover {
   background-color: #fff;
   border: 1px solid #000;
+}
+
+.table-container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label {
+  border-radius: 1em;
+  font-size: 12px;
+}
+
+#map {
+  text-align: center;
 }
