@@ -8,12 +8,12 @@ Feel free to use this as a template for your own sites, and see the evolution of
 
 ### September 2020
 I'm continuing the evolution of this website to be more professional and conveying the important information as simply and cleanly as possible.
-* Updated the typography to Courier (serifs) and removed lowercasing to take on a more professional
-* The landing page was a lot to look at, with the huge picture of me and huge text for my name. This can be overwhelming and also lead to a poor mobile experience. So, I made the text and photo size smaller in order to fit more on the page, along with smaller width margins in order to fit more content on a mobile screen.
+* I updated the typography to Courier (serifs) and removed lowercasing to take on a more professional look.
+* The landing page was overwhelming and a poor mobile screen experience, with the huge picture of me and huge header. So, I made the text and photo size smaller and decreased the width margins in order to fit more content on smaller screens.
 * I replaced the icons with emojis, since emojis are always more fun (and have a cleaner pixel ratio).
-* I broke down the paragraph on the landing page into smaller bullets and links. Nobody wants to read through a full block of text to get the information they want, this parses it out for them.
-* I removed the Music tab as I haven't been updating my Spotify playlist in a long time, so the content was outdated.
-* I updated the Projects tab to a cleaner table format to organize the different information better (time, technology, description). I also removed a lot of extraneous projects to focus on a smaller amount of ones I am more proud of. Much less scrolling is needed now to see the same information.
+* I broke down the paragraph on the landing page into smaller bullets and links. Nobody wants to read through a full block of text to get the information they want, so this parses it out for them.
+* I removed the Music tab as I haven't been updating my Spotify playlist in a long time.
+* I updated the Projects tab to a cleaner table UI to better organize the info (time, technology, description). I also removed a lot of extraneous projects to focus on a smaller amount of ones I am more proud of. Now, much less scrolling is needed.
 ![Not found](/images/web_shot5.png?raw=true "View 5")
 
 ### May 2018

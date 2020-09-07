@@ -32,6 +32,10 @@ body {
   text-align: center;
 }
 
+.aboutBlock {
+  margin-bottom: 6px;
+}
+
 .nav-tabs {
   text-align: center;
   margin: auto;
