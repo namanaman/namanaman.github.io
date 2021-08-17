@@ -6,6 +6,13 @@ My personal site designed & developed using HTML, CSS, and Bootstrap. Features a
 ## Design
 Feel free to use this as a template for your own sites, and see the evolution of the design below.
 
+### August 2021
+I thought about what people who visit my website really would care about seeing, and decided to simplify the design even more to a single page with highlights of my career so far and important links. 
+* Removed Projects tab since it's mostly college projects and probably not as relevant as my work experience since then. Projects can also be seen on Github.
+* Removed Travel tab and replaced with a link to the map for anyone interested.
+* Got rid of Bootstrap, all design and responsiveness done from scratch with CSS and media queries.
+![Not found](/images/web_shot6.png?raw=true "View 6")
+
 ### September 2020
 I'm continuing the evolution of this website to be more professional and conveying the important information as simply and cleanly as possible.
 * I updated the typography to Courier (serifs) and removed lowercasing to take on a more professional look.

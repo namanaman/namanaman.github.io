@@ -2,82 +2,46 @@ body {
   background-color: #FFF;
   color: #000;
   font-family: 'Courier New';
+  font-size: 18px;
 }
 
-.header {
-  height:15vh;
-  display: table;
-  text-align: center;
-}
-
-.header .name {
-  display: table-cell;
-  vertical-align: middle;
+.title {
   font-size: 50px;
+  text-align: center;
+  margin: 16px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  gap: 1%;
+}
+
+@media screen and (max-width: 500px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 3%;
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 36px;
 }
 
 .photo {
-  border-radius: 50%;
-  margin-top: 16px;
+  border-radius: 10%;
+  max-width: 100%;
+  display: block;
 }
 
-.link {
-  font-weight: bold;
+a {
+  text-decoration: none;
 }
 
-.description {
-  font-size: 17px;
-  margin: 15px auto 25px auto;
-  width: 95%;
-  text-align: center;
-}
-
-.aboutBlock {
-  margin-bottom: 6px;
-}
-
-.nav-tabs {
-  text-align: center;
-  margin: auto;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #000;
-}
-
-.nav-tabs > li {
-  float:none;
-  display:inline-block;
-  border: none;
-}
-
-.nav-tabs > li > a {
-  color: white;
-  font-size: 18px;
-  color: #000;
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  border-color: #000;
-  border-bottom-color: transparent;
-  color: #000;
-  font-weight: bold;
-}
-
-.nav-tabs > li > a:hover {
-  background-color: #fff;
-  border: 1px solid #000;
-}
-
-.table-container {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.label {
-  border-radius: 1em;
-  font-size: 12px;
-}
-
-#map {
-  text-align: center;
+a:hover {
+  text-decoration: underline;
 }
